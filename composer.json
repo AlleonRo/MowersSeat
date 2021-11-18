@@ -1,0 +1,30 @@
+{
+  "name": "daviddiaz/technical-test",
+  "authors": [
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-mysqli": "*",
+    "ext-pdo": "*",
+    "guzzlehttp/guzzle": "^6.5",
+    "slim/slim": "^4.4",
+    "slim/psr7": "^1.0",
+    "fzaninotto/faker": "^1.9",
+    "ramsey/uuid": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TechnicalTest\\": "src/",
+      "TechnicalTest\\backend\\": "apps/backend/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TechnicalTest\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "behat/behat": "^3.6",
+    "phpunit/phpunit": "8.*"
+  }
+}
