@@ -4,12 +4,12 @@ namespace MowersSeat\Mower\domain\events;
 
 use MowersSeat\Shared\Framework\domain\events\DomainEvent;
 
-class GridCreatedEvent extends DomainEvent
+class MowerCreatedEvent extends DomainEvent
 {
     public string $id;
 
     /**
-     * GridCreatedEvent constructor.
+     * MowerCreatedEvent constructor.
      * @param string $id
      */
     public function __construct(string $id)

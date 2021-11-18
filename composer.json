@@ -6,12 +6,10 @@
       "email": "alvaro.leonro@gmail.com"
     }
   ],
-  "require": {
-    "ramsey/uuid": "^4.0"
-  },
   "autoload": {
     "psr-4": {
-      "MowersSeat\\": "src/"
+      "MowersSeat\\": "src/",
+      "MowersSeat\\backend\\": "apps/backend/src/"
     }
   },
   "autoload-dev": {

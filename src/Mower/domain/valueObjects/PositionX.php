@@ -5,7 +5,7 @@ namespace MowersSeat\Mower\domain\valueObjects;
 use MowersSeat\Mower\domain\exceptions\XNotValidException;
 use MowersSeat\Shared\Framework\domain\valueObjects\ValueObjectInterface;
 
-class GridX implements ValueObjectInterface
+class PositionX implements ValueObjectInterface
 {
     protected int $value;
 

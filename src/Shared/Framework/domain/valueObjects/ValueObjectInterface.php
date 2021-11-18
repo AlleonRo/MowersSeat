@@ -5,10 +5,10 @@ namespace MowersSeat\Shared\Framework\domain\valueObjects;
 interface ValueObjectInterface
 {
     /**
-     * @param string|null $value
+     * @param int|string $value
      * @return static
      */
-    public static function create(string $value = null): self;
+    public static function create($value): self;
 
     /** @return string|int */
     public function getValue();

@@ -2,24 +2,29 @@
 
 namespace MowersSeat\Mower\domain\valueObjects;
 
+use MowersSeat\Mower\domain\exceptions\YNotValidException;
 use MowersSeat\Shared\Framework\domain\valueObjects\ValueObjectInterface;
 
-class GridX implements ValueObjectInterface
+class GridY implements ValueObjectInterface
 {
     protected int $value;
 
-    public static function create(string $value = null): self
+    /**
+     * @param int $value
+     * @return static
+     * @throws YNotValidException
+     */
+    public static function create($value): self
     {
         $instance = new self();
-        if ($value) {
-            $instance->value = $value;
-            return $instance;
+        if(null === $value ||  $value < 0){
+            throw new YNotValidException();
         }
-        $instance->value = 10;
+        $instance->value = $value;
         return $instance;
     }
 
-    public function getValue(): string
+    public function getValue(): int
     {
         return $this->value;
     }

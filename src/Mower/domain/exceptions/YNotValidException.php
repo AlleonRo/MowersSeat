@@ -1,6 +1,9 @@
 <?php
 
-class WeightNotValidException extends Exception
-{
+namespace MowersSeat\Mower\domain\exceptions;
 
+use Exception;
+
+class YNotValidException extends Exception
+{
 }
