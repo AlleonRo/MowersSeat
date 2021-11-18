@@ -28,7 +28,7 @@ class MowerController
      * @throws XNotValidException
      * @throws YNotValidException
      */
-    public function actionHarvestGrid(string $content)
+    public function actionHarvestGrid(string $content): string
     {
         $numLine = 1;
         $mowerNumber = 1;

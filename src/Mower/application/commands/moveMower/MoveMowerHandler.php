@@ -36,7 +36,7 @@ class MoveMowerHandler implements CommandHandlerInterface
      * @throws YNotValidException
      * @throws MovementNotValidException
      */
-    public function __invoke(MoveMowerCommand $command)
+    public function __invoke(MoveMowerCommand $command): void
     {
         $gridId = GridId::create($command->gridId);
         $grid = $this->repository->retrieveGrid($gridId);

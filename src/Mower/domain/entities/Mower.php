@@ -22,7 +22,7 @@ class Mower extends BaseEntity
     private PositionX $maxX;
     private PositionY $maxY;
 
-    public static function create(MowerId $id, PositionX $x, PositionY $y, Orientation $orientation, PositionX $maxX, PositionY $maxY)
+    public static function create(MowerId $id, PositionX $x, PositionY $y, Orientation $orientation, PositionX $maxX, PositionY $maxY): Mower
     {
         $instance = new self();
         $instance->x = $x;

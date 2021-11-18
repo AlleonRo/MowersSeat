@@ -38,7 +38,7 @@ class CreateMowerHandler implements CommandHandlerInterface
      * @throws YNotValidException
      * @throws OrientationNotValidException
      */
-    public function __invoke(CreateMowerCommand $command)
+    public function __invoke(CreateMowerCommand $command): void
     {
         $gridId = GridId::create($command->gridId);
 

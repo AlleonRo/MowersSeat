@@ -34,7 +34,7 @@ class CreateGridHandler implements CommandHandlerInterface
      * @throws YNotValidException
      * @throws GridIdExistsException
      */
-    public function __invoke(CreateGridCommand $command)
+    public function __invoke(CreateGridCommand $command): void
     {
         $gridId = GridId::create($command->id);
         $gridX = GridX::create($command->x);

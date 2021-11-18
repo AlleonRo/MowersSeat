@@ -28,7 +28,7 @@ class ObtainGridStringHandler implements QueryHandlerInterface
      * @return string
      * @throws GridNotExistsException
      */
-    public function __invoke(ObtainGridStringQuery $query)
+    public function __invoke(ObtainGridStringQuery $query): string
     {
         $gridId = GridId::create($query->gridId);
 

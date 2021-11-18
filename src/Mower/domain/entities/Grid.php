@@ -16,7 +16,7 @@ class Grid extends BaseEntity
     public GridY $y;
     public array $mowers;
 
-    public static function create(GridX $x, GridY $y, GridId $id)
+    public static function create(GridX $x, GridY $y, GridId $id): Grid
     {
         $instance = new self();
         $instance->x = $x;
@@ -27,7 +27,7 @@ class Grid extends BaseEntity
         return $instance;
     }
 
-    public function addMower(Mower $mower)
+    public function addMower(Mower $mower): void
     {
         $this->mowers[$mower->id->getValue()] = $mower;
     }

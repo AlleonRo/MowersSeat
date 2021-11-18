@@ -15,7 +15,7 @@ class MowerControllerTest extends TestCase
      * @throws XNotValidException
      * @throws YNotValidException
      */
-    public function testMowerHarvestWorks()
+    public function testMowerHarvestWorks(): void
     {
         $input = '5 5'.PHP_EOL.'1 2 N'.PHP_EOL.'LMLMLMLMM'.PHP_EOL.'3 3 E'.PHP_EOL.'MMRMMRMRRM';
         $outputExpected = '1 3 N'.PHP_EOL.'5 1 E';
