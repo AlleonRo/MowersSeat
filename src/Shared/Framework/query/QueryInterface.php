@@ -1,10 +1,7 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\query;
-
+namespace MowersSeat\Shared\Framework\query;
 
 interface QueryInterface
 {
-
 }

@@ -1,10 +1,8 @@
 <?php
 
+namespace MowersSeat\Shared\Framework\domain\entities;
 
-namespace TechnicalTest\Shared\Framework\domain\entities;
-
-
-use TechnicalTest\Shared\Framework\domain\events\DomainEvent;
+use MowersSeat\Shared\Framework\domain\events\DomainEvent;
 
 abstract class BaseEntity
 {

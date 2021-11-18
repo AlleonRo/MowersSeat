@@ -1,9 +1,6 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\query;
-
-
+namespace MowersSeat\Shared\Framework\query;
 
 /**
  * Interface QueryHandler
@@ -11,5 +8,4 @@ namespace TechnicalTest\Shared\Framework\query;
  */
 interface QueryHandlerInterface
 {
-
 }

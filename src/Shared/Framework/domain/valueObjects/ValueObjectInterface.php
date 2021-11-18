@@ -1,12 +1,9 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\domain\valueObjects;
-
+namespace MowersSeat\Shared\Framework\domain\valueObjects;
 
 interface ValueObjectInterface
 {
-
     /**
      * @param string|null $value
      * @return static
@@ -15,5 +12,4 @@ interface ValueObjectInterface
 
     /** @return string|int */
     public function getValue();
-
 }

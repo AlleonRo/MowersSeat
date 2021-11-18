@@ -1,10 +1,7 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\domain\events;
-
+namespace MowersSeat\Shared\Framework\domain\events;
 
 abstract class DomainEvent
 {
-
 }

@@ -1,8 +1,6 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\command;
-
+namespace MowersSeat\Shared\Framework\command;
 
 use function get_class;
 

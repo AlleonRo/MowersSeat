@@ -10,12 +10,5 @@
          verbose="true">
     <testsuite name="default">
         <directory suffix="Test.php">tests</directory>
-        <exclude>tests/apps</exclude>
     </testsuite>
-
-    <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src</directory>
-        </whitelist>
-    </filter>
 </phpunit>

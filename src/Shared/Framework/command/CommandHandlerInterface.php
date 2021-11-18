@@ -1,7 +1,6 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\command;
+namespace MowersSeat\Shared\Framework\command;
 
 /**
  * Interface CommandHandler

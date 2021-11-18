@@ -1,14 +1,15 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\query;
-
+namespace MowersSeat\Shared\Framework\query;
 
 use function get_class;
 
 class QueryBus
 {
-    /** @return mixed */
+    /**
+     * @param QueryInterface $query
+     * @return mixed
+     */
     public static function query(QueryInterface $query)
     {
         $key = get_class($query);

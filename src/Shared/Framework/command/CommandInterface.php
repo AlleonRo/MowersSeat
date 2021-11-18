@@ -1,10 +1,7 @@
 <?php
 
-
-namespace TechnicalTest\Shared\Framework\command;
-
+namespace MowersSeat\Shared\Framework\command;
 
 interface CommandInterface
 {
-
 }

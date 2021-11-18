@@ -1,6 +1,6 @@
 <?php
 
-namespace TechnicalTest\Tests\src\Unit;
+namespace MowersSeat\Tests\src\Unit;
 
 use PHPUnit\Framework\TestCase;
 
